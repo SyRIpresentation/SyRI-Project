@@ -75,10 +75,10 @@ Despite the fact the Dutch authorities have not revealed the other variables use
 
 Consequently, we are creating our model to model the risk-classication algorithm by using a dataset with enough informations in order to illustrate how discriminatory biases may occur. The data contained in it does not concern the Netherlands, but rather the US. The reason why is that data about European citizens are more difficult to find due to the European legislation (GDPR). We use 4 variables:
 
-employment status
-level of education
-marital status
-gender
+- employment status
+- level of education
+- marital status
+- gender
 
 to which we assign between 2 and 6 variablities (e.g. married/divorced/never married). To each of these options corresponds a weight to the likeliness of comitting fraud. The range of the weight is between 0 and 1 -- 0 being most likely to commit fraud, 1 being least likely to commit fraud. The range of these values are chosen in order to stay close to the orginal Dutch SyRI model, which assigned the weight of likeliness of fraud between 0 and 1 as well. For instance, data reveals that males are more likely to commit frauds than females. 60% of frauds that occurred in the United States in 2011 were committed by males. For this reason, we assigned the value of 1 for females, and 0.667 for males (values are rounded up to the third decimal places). Eventually, the overall aggragated weight gives us a score that indicates whether or not the individual in the model is likely to commit fraud.
 Numerical values for occupation and marital status were determined in similar manners. For occupation, we hypothesised that an individual's income negatively correlates to the likelihood of committing frauds. We therefore observed US average income data in order to determine the values. For marital status, we explored a study conducted by Engels, Christian & Kumar, Kamlesh & Philip, Dennis. (2021) that explained how people who are single are less likely to commit frauds, then widowed, then married (which was a surprise to us!). Hence, we assigned the biggest value for single individuals, and the other to married ones. 
