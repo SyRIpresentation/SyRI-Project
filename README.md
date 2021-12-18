@@ -113,7 +113,7 @@ Lastly, when it comes to the display of our study, more analysis could have been
 
  [Link To Our Notebook](https://colab.research.google.com/drive/1OuCX3T0kGAYSRSNwVhUgN3KRQ-dfbw4U#scrollTo=hwVdMgJX7LnR) 
 
-![alt text]
+Our results
 
 <img width="344" alt="gitgit" src="https://user-images.githubusercontent.com/96199458/146656089-186bc482-9d59-4a13-9114-370a8772525b.png">
 
