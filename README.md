@@ -95,15 +95,6 @@ The final step is to add nationality as a determining variable in order to compa
 
 
 
-## Limitations of our study
-Although we did our best to come up with a study that closely illustrated the Dutch SyRI case, our study is limited in various ways. 
-In terms of our methodology, firstly, the dataset used was an American one. It was hard to find a dataset that had detailed demographic descriptions, and the one we used was the most detailed and comprehensive one. When it comes to coming up with the equation we used to calculate the risk score, we made sure that there are reasons behind the way we assign values for each variable, and putting weights (coefficients). During this process, however, multiple studies were used at once, which was not ideal as those studies obviously treated different matters with different datasets. 
-Yet, despite all the factors that we could control, the result observed was contrary to 
-
-## Further research topics
-
-
-
 
 ## Limitations of our study
 Although we did our best to come up with a study that closely illustrated the Dutch SyRI case, our study is limited in various ways. 
@@ -136,5 +127,5 @@ All in all, the childcare benefits affair of the Netherlands has certainly suppo
 algorithms can be discriminatory, and that they can cause severe implications. With the increase of
 the use of algorithms in data processing of governments and institutions, the risk of discrimination to
 become more evident is very logical, considering most bias already preexisted within the institutions
-that adopted the biased systems.
+that adopted the biased systems. This only strenghtens the arguments that algorithms have to be carefully monitored for bias when deployed on situations that can severely impact citizens. 
 
