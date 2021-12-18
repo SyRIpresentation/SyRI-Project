@@ -113,8 +113,9 @@ Lastly, when it comes to the display of our study, more analysis could have been
 
  [Link To Our Notebook](https://colab.research.google.com/drive/1OuCX3T0kGAYSRSNwVhUgN3KRQ-dfbw4U#scrollTo=hwVdMgJX7LnR) 
 
-![alt text](http://url/to/img.png)
+![alt text]
 
+<img width="344" alt="gitgit" src="https://user-images.githubusercontent.com/96199458/146656089-186bc482-9d59-4a13-9114-370a8772525b.png">
 
 The results were compatible with our initial hypothesis. By replacing the variables (education, marital status, occupation, and sex) into numerical valuables, we ran a code to calculate the final score that detects the likelihood of a person committing a fraud (0 to 1, the larger the score is, the less likely they will commit frauds). The results showed that there are a number foreign countries scoring higher than the Americans. The score calculated for an average US citizen (0.771865), was ranked the 19th out of 41 countries. This means that there are 18 nationalities ahead of the American nationality that were identified to be 'less riskier'. This shows that, according to the dataset we had with the equation we prepared, it is rather absurd to conclude that foreigners are riskier. This could suggest that the Dutch SyRI system was heavily biased, as our hypothesis predicted. According to our results, using nationality as an indicator does not improve the result as nationals were not identified to be less risky. Even for those foreigners that scored lower than Americans, there was not a huge difference in terms of the score. No country scored below 0.7, with Portugal being the lowest scoring 0.709531, roughly a 0.06 point difference between Americans. Using nationality as one of the variables would actually deteriorate the risk assessment. 
 
